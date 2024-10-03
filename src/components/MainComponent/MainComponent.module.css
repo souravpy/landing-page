@@ -1,0 +1,14 @@
+.mainContainer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .mainContainer {
+    padding: 0 20px;
+  }
+}

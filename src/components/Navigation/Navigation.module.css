@@ -1,0 +1,45 @@
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.loginButton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #18181b;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.loginIcon {
+  width: 14px;
+  height: 14px;
+}
+
+.tryFreeButton {
+  border-radius: 5px;
+  background-color: #7261ff;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .navList {
+    gap: 20px;
+  }
+}

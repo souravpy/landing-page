@@ -1,0 +1,28 @@
+.sampleOMs {
+  background-color: #fff;
+  padding: 50px 64px;
+}
+
+.sectionTitle {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.omGrid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .sampleOMs {
+    padding: 40px 20px;
+  }
+
+  .omGrid {
+    flex-direction: column;
+  }
+}

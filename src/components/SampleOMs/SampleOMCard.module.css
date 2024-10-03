@@ -1,0 +1,31 @@
+.omCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 0 4px 5px rgba(132, 132, 132, 0.2);
+  overflow: hidden;
+  width: calc(33.33% - 13px);
+}
+
+.omImage {
+  width: 100%;
+  aspect-ratio: 1.29;
+  object-fit: cover;
+}
+
+.omContent {
+  padding: 20px;
+}
+
+.omTitle {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.omDescription {
+  color: #52525b;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}

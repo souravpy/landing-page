@@ -1,0 +1,30 @@
+.propertyTypes {
+  background-color: #fff;
+  padding: 80px 150px;
+  text-align: center;
+}
+
+.sectionTitle {
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  display: block;
+  color: #7261ff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.typeGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media (max-width: 991px) {
+  .propertyTypes {
+    padding: 40px 20px;
+  }
+}

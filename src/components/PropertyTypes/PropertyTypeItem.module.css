@@ -1,0 +1,28 @@
+.typeItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 190px;
+  padding: 33px 38px;
+  border-radius: 10px;
+  background-color: rgba(158, 158, 158, 0.12);
+}
+
+.typeIcon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.typeName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #323232;
+}
+
+@media (max-width: 991px) {
+  .typeItem {
+    width: calc(50% - 20px);
+    padding: 20px;
+  }
+}
